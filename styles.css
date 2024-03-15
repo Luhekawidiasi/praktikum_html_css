@@ -1,0 +1,28 @@
+.info {
+    color: #333;
+    font-size: 12px;
+}
+
+#biodata {
+    background-color: blanchedalmond;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+[data="Email"] {
+    font-weight: bold;
+}
+
+[data="Tanggal lahir"] {
+    font-style: italic;
+}
+
+.info:hover {
+    background-color: aqua;
+}
+
+#biodata::after {
+    display: block;
+    font-size: 20px;
+    margin-top: 10px;
+}
